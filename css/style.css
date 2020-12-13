@@ -1,0 +1,39 @@
+:root { 
+--main-background-color:  #FFFFFF;
+--sec-background-color:#F5F4FA; 
+--dark-background-color:#2F303A;  
+--accent-color: #2196F3;
+--main-color: #212121;
+--secondary-color: #757575; 
+}
+
+body { background-color: var(--main-background-color);}
+a { text-decoration:none;}
+li {list-style:none; }
+/*header*/
+.logostart{
+    color:var(--accent-color);}
+.logofinish {
+    color:var(--main-color);}
+
+.header-studio { color:var(--accent-color);}
+.header-email { color:var(--accent-color);}
+/*hero*/
+.hero {background-color: var(--dark-background-color); }
+.slogan { color:var(--main-background-color);}
+.button-top { background-color:var(--accent-color);
+color:var(--main-background-color);
+}
+/*Features*/
+.section-features { background-color: var(--main-background-color);
+}
+/*What are we doing*/
+.section-benefits {background-color: var(--main-background-color); }
+/*Our team section*/
+.team-section { background-color: var(--sec-background-color);}
+/*Footer */
+.footer {background-color: var(--dark-background-color);}
+
+
+
+
