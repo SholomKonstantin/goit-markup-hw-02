@@ -10,29 +10,96 @@
 body { background-color: var(--main-background-color);}
 a { text-decoration:none;}
 li {list-style:none; }
-/*header*/
-.logostart{
-    color:var(--accent-color);}
-.logofinish {
-    color:var(--main-color);}
 
+/*header*/
+
+.logostart{color:var(--main-color) ;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer}
+.logoweb { color: #2196F3;} 
+.list-footer{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+.link {color: #212121;
+    text-decoration: none}
+.link:focus,
+.link:hover { color: #2196F3;}   
+   
 .header-studio { color:var(--accent-color);}
-.header-email { color:var(--accent-color);}
+.contact-link { color: #757575;}
+.contact-link:focus,
+.contact-link:hover { color: #2196F3;}
+
 /*hero*/
+
 .hero {background-color: var(--dark-background-color); }
-.slogan { color:var(--main-background-color);}
+.slogan { color: var(--main-background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;}
 .button-top { background-color:var(--accent-color);
 color:var(--main-background-color);
 }
+
 /*Features*/
-.section-features { background-color: var(--main-background-color);
-}
+
+.section-features { background-color: var(--main-background-color);}
+.title-list { color: var(--main-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.43;}
+.text-title { color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;}
+
 /*What are we doing*/
+
 .section-benefits {background-color: var(--main-background-color); }
+
 /*Our team section*/
+
 .team-section { background-color: var(--sec-background-color);}
+.name-list { color: var(--main-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;}
+.prof-list {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+ }
+
 /*Footer */
+
 .footer {background-color: var(--dark-background-color);}
+.studio-footer { color: #FFFFFF;}
+.footer-info{ color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;}
+.adress-footer { color: var(--main-background-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;}
+
+/*button*/
+.button-portf:focus,
+.button-portf:hover { color: #2196F3; }
+
+
 
 
 
