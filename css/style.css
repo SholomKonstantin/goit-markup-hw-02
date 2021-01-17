@@ -47,7 +47,8 @@ font-family: Roboto;}
     line-height: 1.37;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.06em;}
+    letter-spacing: 0.06em;
+    font-family: Roboto;}
 
 .button-top:focus,
 .button-top:hover { color: var(--main-background-color); background-color: var(--accent-color);} 
@@ -69,7 +70,8 @@ cursor: pointer }
 
 /*What are we doing*/
 
-.section-benefits {background-color: var(--main-background-color); }
+.section-benefits {background-color: var(--main-background-color); 
+    font-family: Roboto;}
 .coding-photo { width: 370px;}
 
 /*Our team section*/
