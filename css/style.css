@@ -59,7 +59,8 @@ cursor: pointer }
 
 .button-studio
 { background-color: var(--accent-color);
-color: var(--main-background-color);}
+color: var(--main-background-color);
+}
 
 /*Features*/
 
