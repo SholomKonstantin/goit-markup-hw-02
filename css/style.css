@@ -31,7 +31,8 @@ font-family: Roboto;}
 .link {color: #212121;
     text-decoration: none}
 .link:focus,
-.link:hover { color: var(--accent-color);}   
+.link:hover { color: var(--accent-color);} 
+.link:visited { color: var(--main-color);}
     
 
 .contact-link { color:var(--secondary-color);}
@@ -50,10 +51,9 @@ font-family: Roboto;}
     letter-spacing: 0.06em;
     font-family: Roboto;}
 
-.button-top:focus,
-.button-top:hover { color: var(--main-background-color); background-color: var(--accent-color);} 
-.button-top { background-color:var(--sec-background-color);
-color:var(--main-color);
+
+.button-top { background-color:var(--accent-color);
+color:var(--main-background-color);
 cursor: pointer }
 
 /*Features*/
