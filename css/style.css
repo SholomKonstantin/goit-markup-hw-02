@@ -51,10 +51,15 @@ font-family: Roboto;}
     letter-spacing: 0.06em;
     font-family: Roboto;}
 
-
-.button-top { background-color:var(--accent-color);
-color:var(--main-background-color);
+.button-top:focus,
+.button-top:hover { color: var(--main-background-color); background-color: var(--accent-color);} 
+.button-top { background-color:var(--sec-background-color);
+color:var(--main-color);
 cursor: pointer }
+
+.button-studio
+{ background-color: var(--accent-color);
+color: var(--main-background-color);}
 
 /*Features*/
 
