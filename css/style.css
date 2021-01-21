@@ -28,11 +28,12 @@ font-family: Roboto;}
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;}
-.link {color: #212121;
-    text-decoration: none}
-.link:focus,
-.link:hover { color: var(--accent-color);} 
-.link:visited { color: var(--main-color);}
+    
+.head-link {color: var(--main-color)  ;}
+.head-link:focus,
+.head-link:hover { color: var(--accent-color);} 
+.head-link-studio {color: var(--accent-color);}
+.head-link-portf {color: var(--accent-color);}
     
 
 .contact-link { color:var(--secondary-color);}
@@ -57,10 +58,11 @@ font-family: Roboto;}
 color:var(--main-color);
 cursor: pointer }
 
+
 .button-studio
 { background-color: var(--accent-color);
 color: var(--main-background-color);
-}
+cursor: pointer}
 
 /*Features*/
 
