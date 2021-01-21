@@ -33,7 +33,7 @@ font-family: Roboto;}
 .head-link:focus,
 .head-link:hover { color: var(--accent-color);} 
 .head-link-studio {color: var(--accent-color);}
-.head-link-portf {color: var(--accent-color);}
+.head-link-portf {color: var(--accent-color) ;}
     
 
 .contact-link { color:var(--secondary-color);}
