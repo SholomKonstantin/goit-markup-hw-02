@@ -56,7 +56,7 @@ ul{
 .nav-adress:hover {
     color: #404BBF;
 }
-.nav-adress:first-of-type {
+.nav-adress:focus {
     color: #404BBF;
 }
 
